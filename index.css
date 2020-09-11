@@ -141,6 +141,7 @@ h1 {
   font-family: "Chelsea Market", cursive;
   font-size: 40px;
   padding: 100px 10px 100px;
+  display: inline-block;
 }
 
 .sec2 {
@@ -149,9 +150,32 @@ h1 {
   font-family: "Roboto Mono", monospace;
   color: #ffffff;
   letter-spacing: 9px;
+  margin: 100px;
+}
+
+#campfire {
+  width: 50%;
+}
+
+#rv-camper{
+  width: 50%;
+}
+
+.sec3 {
+  font-family: "Roboto Mono", monospace;
+  margin: 0 750px 150px;
 }
 
 .sec3 p {
-  font-family: "Roboto Mono", monospace;
-  margin: 100px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+span {
+  font-weight: 800;
+}
+
+footer {
+  background-image: url"assets/footer_img.jpg";
+
 }
