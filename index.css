@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 
-.main-content{
+.main-content {
   margin: 0 auto;
 }
 
@@ -113,7 +113,7 @@ nav a {
 
 .nav1 {
   background: #ff764e;
-  margin-right:100px;
+  margin-right: 100px;
 }
 
 .nav2 {
@@ -126,22 +126,33 @@ nav a {
 }
 
 .head-title {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  padding: 5px;
 }
 
+
 #top-image {
-  display: inline-block;
   border-radius: 50%;
-  width: 25%;
-  margin-right: 75%;
+  width: 20%;
 }
+
+#top-info {
+  align-self: center;
+}
+
 
 h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 40px;
-  padding: 100px 10px 100px;
-  display: inline-block;
+  font-size: 80px;
+  margin-bottom: 30px;
+  
+}
+
+.head-title p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 400px;
 }
 
 .sec2 {
@@ -157,7 +168,7 @@ h1 {
   width: 50%;
 }
 
-#rv-camper{
+#rv-camper {
   width: 50%;
 }
 
@@ -175,7 +186,14 @@ span {
   font-weight: 800;
 }
 
-footer {
-  background-image: url"assets/footer_img.jpg";
+#mountain-image {
+  background-image: url("./assets/footer_img.jpg");
+  background-size: cover;
+  height: 500px;
+}
 
+footer{
+  background: #F9E7DC;
+  background-size: cover;
+  padding: 100px;
 }
